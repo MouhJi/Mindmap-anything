@@ -1,0 +1,284 @@
+[
+  {
+    "url": "https://fastapi.tiangolo.com/",
+    "markdown_characters_before": 21142,
+    "markdown_characters_after": 19072,
+    "headings": 30,
+    "code_blocks": 12,
+    "meaningful_links": 53,
+    "images": 17,
+    "entities": {
+      "async": {
+        "before": 6,
+        "after": 6
+      },
+      "await": {
+        "before": 2,
+        "after": 2
+      },
+      "FastAPI": {
+        "before": 53,
+        "after": 53
+      },
+      "Starlette": {
+        "before": 6,
+        "after": 6
+      },
+      "AnyIO": {
+        "before": 0,
+        "after": 0
+      },
+      "asyncio": {
+        "before": 0,
+        "after": 0
+      }
+    },
+    "checks": {
+      "headings_and_hierarchy_preserved": true,
+      "code_source_preserved_verbatim": true,
+      "meaningful_links_and_images_preserved": true,
+      "metadata_preserved": true,
+      "url_and_title_preserved": true,
+      "idempotent": true,
+      "markdown_parseable": true,
+      "navigation_footer_removed": true,
+      "technical_terms_preserved": true
+    },
+    "entity_count_basis": "Visible Markdown content and code, excluding link destinations"
+  },
+  {
+    "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+    "markdown_characters_before": 9228,
+    "markdown_characters_after": 8359,
+    "headings": 10,
+    "code_blocks": 6,
+    "meaningful_links": 7,
+    "images": 2,
+    "entities": {
+      "async": {
+        "before": 8,
+        "after": 8
+      },
+      "await": {
+        "before": 0,
+        "after": 0
+      },
+      "FastAPI": {
+        "before": 15,
+        "after": 15
+      },
+      "Starlette": {
+        "before": 0,
+        "after": 0
+      },
+      "AnyIO": {
+        "before": 0,
+        "after": 0
+      },
+      "asyncio": {
+        "before": 0,
+        "after": 0
+      }
+    },
+    "checks": {
+      "headings_and_hierarchy_preserved": true,
+      "code_source_preserved_verbatim": true,
+      "meaningful_links_and_images_preserved": true,
+      "metadata_preserved": true,
+      "url_and_title_preserved": true,
+      "idempotent": true,
+      "markdown_parseable": true,
+      "navigation_footer_removed": true,
+      "technical_terms_preserved": true
+    },
+    "entity_count_basis": "Visible Markdown content and code, excluding link destinations"
+  },
+  {
+    "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+    "markdown_characters_before": 16178,
+    "markdown_characters_after": 14516,
+    "headings": 15,
+    "code_blocks": 11,
+    "meaningful_links": 13,
+    "images": 0,
+    "entities": {
+      "async": {
+        "before": 28,
+        "after": 28
+      },
+      "await": {
+        "before": 0,
+        "after": 0
+      },
+      "FastAPI": {
+        "before": 19,
+        "after": 19
+      },
+      "Starlette": {
+        "before": 0,
+        "after": 0
+      },
+      "AnyIO": {
+        "before": 0,
+        "after": 0
+      },
+      "asyncio": {
+        "before": 0,
+        "after": 0
+      }
+    },
+    "checks": {
+      "headings_and_hierarchy_preserved": true,
+      "code_source_preserved_verbatim": true,
+      "meaningful_links_and_images_preserved": true,
+      "metadata_preserved": true,
+      "url_and_title_preserved": true,
+      "idempotent": true,
+      "markdown_parseable": true,
+      "navigation_footer_removed": true,
+      "technical_terms_preserved": true
+    },
+    "entity_count_basis": "Visible Markdown content and code, excluding link destinations"
+  },
+  {
+    "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+    "markdown_characters_before": 18729,
+    "markdown_characters_after": 18144,
+    "headings": 5,
+    "code_blocks": 7,
+    "meaningful_links": 14,
+    "images": 0,
+    "entities": {
+      "async": {
+        "before": 0,
+        "after": 0
+      },
+      "await": {
+        "before": 0,
+        "after": 0
+      },
+      "FastAPI": {
+        "before": 30,
+        "after": 30
+      },
+      "Starlette": {
+        "before": 0,
+        "after": 0
+      },
+      "AnyIO": {
+        "before": 0,
+        "after": 0
+      },
+      "asyncio": {
+        "before": 0,
+        "after": 0
+      }
+    },
+    "checks": {
+      "headings_and_hierarchy_preserved": true,
+      "code_source_preserved_verbatim": true,
+      "meaningful_links_and_images_preserved": true,
+      "metadata_preserved": true,
+      "url_and_title_preserved": true,
+      "idempotent": true,
+      "markdown_parseable": true,
+      "navigation_footer_removed": true,
+      "technical_terms_preserved": true
+    },
+    "entity_count_basis": "Visible Markdown content and code, excluding link destinations"
+  },
+  {
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "markdown_characters_before": 6035,
+    "markdown_characters_after": 5637,
+    "headings": 5,
+    "code_blocks": 3,
+    "meaningful_links": 5,
+    "images": 0,
+    "entities": {
+      "async": {
+        "before": 0,
+        "after": 0
+      },
+      "await": {
+        "before": 0,
+        "after": 0
+      },
+      "FastAPI": {
+        "before": 18,
+        "after": 18
+      },
+      "Starlette": {
+        "before": 0,
+        "after": 0
+      },
+      "AnyIO": {
+        "before": 0,
+        "after": 0
+      },
+      "asyncio": {
+        "before": 0,
+        "after": 0
+      }
+    },
+    "checks": {
+      "headings_and_hierarchy_preserved": true,
+      "code_source_preserved_verbatim": true,
+      "meaningful_links_and_images_preserved": true,
+      "metadata_preserved": true,
+      "url_and_title_preserved": true,
+      "idempotent": true,
+      "markdown_parseable": true,
+      "navigation_footer_removed": true,
+      "technical_terms_preserved": true
+    },
+    "entity_count_basis": "Visible Markdown content and code, excluding link destinations"
+  },
+  {
+    "url": "https://fastapi.tiangolo.com/async/",
+    "markdown_characters_before": 24491,
+    "markdown_characters_after": 22822,
+    "headings": 21,
+    "code_blocks": 8,
+    "meaningful_links": 15,
+    "images": 13,
+    "entities": {
+      "async": {
+        "before": 59,
+        "after": 59
+      },
+      "await": {
+        "before": 28,
+        "after": 28
+      },
+      "FastAPI": {
+        "before": 17,
+        "after": 17
+      },
+      "Starlette": {
+        "before": 3,
+        "after": 3
+      },
+      "AnyIO": {
+        "before": 4,
+        "after": 4
+      },
+      "asyncio": {
+        "before": 1,
+        "after": 1
+      }
+    },
+    "checks": {
+      "headings_and_hierarchy_preserved": true,
+      "code_source_preserved_verbatim": true,
+      "meaningful_links_and_images_preserved": true,
+      "metadata_preserved": true,
+      "url_and_title_preserved": true,
+      "idempotent": true,
+      "markdown_parseable": true,
+      "navigation_footer_removed": true,
+      "technical_terms_preserved": true
+    },
+    "entity_count_basis": "Visible Markdown content and code, excluding link destinations"
+  }
+]

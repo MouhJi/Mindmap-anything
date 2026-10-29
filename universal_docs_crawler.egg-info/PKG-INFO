@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: universal-docs-crawler
+Version: 0.1.0
+Summary: A reusable asynchronous crawler for documentation websites.
+Requires-Python: >=3.11
+Requires-Dist: aiofiles>=24.1.0
+Requires-Dist: beautifulsoup4>=4.12.0
+Requires-Dist: crawl4ai>=0.6.0
+Requires-Dist: markdownify>=0.13.0
+Requires-Dist: markdown-it-py>=3.0.0
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: trafilatura>=1.9.0
+Provides-Extra: test
+Requires-Dist: pytest>=8.0.0; extra == "test"
