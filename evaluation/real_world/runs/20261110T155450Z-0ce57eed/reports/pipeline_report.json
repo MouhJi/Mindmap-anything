@@ -1,0 +1,190 @@
+{
+  "run_id": "20261110T155450Z-0ce57eed",
+  "status": "partial_blocked",
+  "dataset": {
+    "source": "FastAPI official documentation",
+    "mode": "existing_real_crawl",
+    "documents": 6,
+    "urls": [
+      "https://fastapi.tiangolo.com/",
+      "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "https://fastapi.tiangolo.com/tutorial/",
+      "https://fastapi.tiangolo.com/async/"
+    ],
+    "target_documents": 20,
+    "target_met": false,
+    "duplicates_excluded": [],
+    "chunks": null,
+    "manifest": [
+      {
+        "document_id": "doc_c889b62860c33a44dc8a7a9613e6234d218661b6a081ebcb9e51d4c04adabd23",
+        "url": "https://fastapi.tiangolo.com/",
+        "title": "FastAPI - FastAPI",
+        "domain": "fastapi.tiangolo.com",
+        "crawl_time": "2026-09-10T11:54:10.376653Z",
+        "content_hash": "18e7997dc245c7e35453c1a0bc7406b2bcd65c38efa6d719edfe8172ef89ca1c"
+      },
+      {
+        "document_id": "doc_afa173ffcef8ce124a8046148048100d158278a810d72a98e5efc4072d25034d",
+        "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+        "title": "Metadata and Docs URLs - FastAPI",
+        "domain": "fastapi.tiangolo.com",
+        "crawl_time": "2026-09-10T11:54:20.092770Z",
+        "content_hash": "fc6dc6cf37b0846b908f679f89e8909714ef2adbbd2f94e2c23b44571b515ac3"
+      },
+      {
+        "document_id": "doc_8c7e2292dac91256f60e37c60af3013a18ea866bbd08656b9d0982f1659ada97",
+        "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+        "title": "Custom Docs UI Static Assets (Self-Hosting) - FastAPI",
+        "domain": "fastapi.tiangolo.com",
+        "crawl_time": "2026-09-10T11:54:21.552125Z",
+        "content_hash": "5b3328a3d9cf7ad8dc7e4f943a241a631c3f368c1c1156c97a6256f37b273a0f"
+      },
+      {
+        "document_id": "doc_e5980895e6c8cbb2983db7ceee01bc1633828dbc6bf9512bb7baeeb62d7e5b12",
+        "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+        "title": "OpenAPI docs - FastAPI",
+        "domain": "fastapi.tiangolo.com",
+        "crawl_time": "2026-09-10T11:54:20.893674Z",
+        "content_hash": "72136f808163112a5e341e641dcb145a23eb6c9ca6b56bf6ed85e9ec3966a37b"
+      },
+      {
+        "document_id": "doc_d77ca97871569a11189669661fc50d63fa2c3014af076f206cd9d7509fc7886a",
+        "url": "https://fastapi.tiangolo.com/tutorial/",
+        "title": "Tutorial - User Guide - FastAPI",
+        "domain": "fastapi.tiangolo.com",
+        "crawl_time": "2026-09-10T11:54:19.399868Z",
+        "content_hash": "d8e711a5be55660528a270d62843372a64267822ccbea2e149fee3514c957c34"
+      },
+      {
+        "document_id": "doc_d3a85dd7e6a4fa17b67868ea4bb253791c653d626b426ef6f54f6d306d0ea2a3",
+        "url": "https://fastapi.tiangolo.com/async/",
+        "title": "Concurrency and async / await - FastAPI",
+        "domain": "fastapi.tiangolo.com",
+        "crawl_time": "2026-09-10T11:54:18.886034Z",
+        "content_hash": "5c66a2061cab17c4a409cc4c52ae8fe19bbdfca2928f8f471b59ed26a92f8992"
+      }
+    ]
+  },
+  "crawling": {
+    "status": "not_executed",
+    "reason": "Reused existing suitable real crawl output; no new network requests.",
+    "seconds": null
+  },
+  "cleaning": {
+    "status": "executed",
+    "processed": 6,
+    "successful": 6,
+    "failed": 0,
+    "empty_documents": 0,
+    "original_characters": 95803,
+    "cleaned_characters": 88550,
+    "preservation_checks_passed": 6,
+    "preservation_checks_failed": 0,
+    "seconds": 1.268638399982592
+  },
+  "stages": {
+    "chunking": {
+      "status": "not_executed",
+      "reason": "No section-aware chunker or tokenizer integration exists; SourceChunk is only an input schema.",
+      "seconds": null
+    },
+    "extraction": {
+      "status": "not_executed",
+      "reason": "StructuredExtractor requires an injected provider; no configured provider adapter exists. No requests made.",
+      "seconds": null
+    },
+    "normalization": {
+      "status": "not_executed",
+      "reason": "Blocked by unavailable real chunks and extraction results.",
+      "seconds": null
+    },
+    "deduplication": {
+      "status": "not_executed",
+      "reason": "Blocked by unavailable real extraction results.",
+      "seconds": null
+    },
+    "quality_filtering": {
+      "status": "not_executed",
+      "reason": "Blocked by unavailable real extraction results.",
+      "seconds": null
+    },
+    "neo4j_import": {
+      "status": "not_executed",
+      "reason": "No real canonical graph to import; no configured Neo4j connection. No database writes attempted.",
+      "seconds": null
+    },
+    "expansion": {
+      "status": "not_executed",
+      "reason": "No resulting real graph exists; zero real node expansions executed.",
+      "seconds": null
+    }
+  },
+  "chunking": {
+    "total_chunks": null,
+    "average_tokens": null,
+    "minimum_tokens": null,
+    "maximum_tokens": null,
+    "empty_chunks": null,
+    "failed_operations": null,
+    "chunks_per_document": null
+  },
+  "extraction": {
+    "raw_entities": null,
+    "raw_relationships": null,
+    "failed_chunks": null,
+    "invalid_outputs": null,
+    "llm_request_count": 0,
+    "token_usage": null,
+    "estimated_cost": null
+  },
+  "normalization": {
+    "canonical_entities": null,
+    "merged_aliases": null,
+    "ambiguous_merges": null
+  },
+  "relationships": {
+    "canonical_relationships": null,
+    "accepted": null,
+    "rejected": null,
+    "rejection_reasons": null,
+    "evidence_validation_pass_rate": null
+  },
+  "graph": {
+    "stored_nodes": null,
+    "stored_edges": null,
+    "idempotency_verified": null
+  },
+  "expansion": {
+    "tested_nodes": 0,
+    "average_latency_ms": null,
+    "maximum_latency_ms": null
+  },
+  "policy": {
+    "min_confidence": 0.75,
+    "default_importance_threshold": 0.6,
+    "default_expansion_limit": 5,
+    "max_expansion_limit": 50,
+    "importance_weight": 0.6,
+    "confidence_weight": 0.4,
+    "context_weight": 0.2,
+    "version": "deterministic-v1"
+  },
+  "accuracy": {
+    "precision": null,
+    "recall": null,
+    "precision_at_5": null,
+    "reason": "No independently labeled real-data ground truth or real extracted graph."
+  },
+  "errors": [],
+  "limitations": [
+    "Only six existing unique pages are normally available; the 20-page target is not met.",
+    "This is a partial real-data functional evaluation, not an end-to-end success.",
+    "No synthetic extraction, mock provider, replacement chunker or graph was used.",
+    "Original crawl timestamps describe a saved snapshot, not a fresh documentation crawl.",
+    "Top-K relevance is unvalidated; no production accuracy benchmark is established."
+  ],
+  "total_execution_seconds": 1.3083629000175279
+}

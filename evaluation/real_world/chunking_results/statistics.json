@@ -1,0 +1,825 @@
+{
+  "documents": [
+    {
+      "url": "https://fastapi.tiangolo.com/",
+      "chunks": 31
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "chunks": 10
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "chunks": 15
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "chunks": 7
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "chunks": 5
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/async/",
+      "chunks": 21
+    }
+  ],
+  "total_chunks": 89,
+  "tokenizer": "utf8-byte-v1",
+  "token_units": "UTF-8 bytes, not model-specific BPE tokens",
+  "max_bytes": 4096,
+  "overlap_bytes": 256,
+  "eligible_for_extraction": 82,
+  "ineligible_for_extraction": 7,
+  "eligibility_reason_counts": {
+    "nontechnical_promotion": 1,
+    "heading_only": 4,
+    "nontechnical_sponsorship": 4,
+    "oversized_block_requires_budget_review": 1
+  },
+  "relevance_counts": {
+    "promotion": 1,
+    "technical_or_unknown": 84,
+    "sponsorship": 4
+  },
+  "flagged_chunks": [
+    {
+      "chunk_id": "chunk_a06abbe6b885f02a75097943b01c73f2d787b388224e525f2a541e3d6d2ee7e2",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "FastAPI - FastAPI",
+      "eligible": false,
+      "reasons": [
+        "nontechnical_promotion"
+      ],
+      "relevance": "promotion",
+      "relevance_reasons": [
+        "event_promotion_with_call_to_action"
+      ]
+    },
+    {
+      "chunk_id": "chunk_7d5e211164b5b7aad1c7f23731ab19ff76c2cded78c232722f2c6067d15df318",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Sponsors",
+      "eligible": false,
+      "reasons": [
+        "heading_only",
+        "nontechnical_sponsorship"
+      ],
+      "relevance": "sponsorship",
+      "relevance_reasons": [
+        "explicit_sponsorship_section_without_code"
+      ]
+    },
+    {
+      "chunk_id": "chunk_bcd6139f98f7fc65d6e365b30ad5a59dc290144262596c3bc337517237445fb7",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Keystone Sponsor",
+      "eligible": false,
+      "reasons": [
+        "heading_only",
+        "nontechnical_sponsorship"
+      ],
+      "relevance": "sponsorship",
+      "relevance_reasons": [
+        "explicit_sponsorship_section_without_code"
+      ]
+    },
+    {
+      "chunk_id": "chunk_f75884887e0b3ab1989e57ad26df099f53e07a3e3550808906ccf784e7cccabe",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Gold Sponsors",
+      "eligible": false,
+      "reasons": [
+        "heading_only",
+        "nontechnical_sponsorship"
+      ],
+      "relevance": "sponsorship",
+      "relevance_reasons": [
+        "explicit_sponsorship_section_without_code"
+      ]
+    },
+    {
+      "chunk_id": "chunk_30bd9f8c83ada9788d28ccb962981b067015109c97cedb7a8e6fe2893e7c40c6",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Silver Sponsors",
+      "eligible": false,
+      "reasons": [
+        "nontechnical_sponsorship"
+      ],
+      "relevance": "sponsorship",
+      "relevance_reasons": [
+        "explicit_sponsorship_section_without_code"
+      ]
+    },
+    {
+      "chunk_id": "chunk_2d9b979dbbed147afd0670ca29fae41f5f9c2b36b69c7df8b691cda3813edd0b",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Example",
+      "eligible": false,
+      "reasons": [
+        "heading_only"
+      ],
+      "relevance": "technical_or_unknown",
+      "relevance_reasons": []
+    },
+    {
+      "chunk_id": "chunk_2faddde0732a46382896efb7b44d9c6a27826b5d34ba68398a48acb90b4384ab",
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "section": "fastapi.openapi.docs.get\\_swagger\\_ui\\_html",
+      "eligible": false,
+      "reasons": [
+        "oversized_block_requires_budget_review"
+      ],
+      "relevance": "technical_or_unknown",
+      "relevance_reasons": []
+    }
+  ],
+  "minimum": 12,
+  "maximum": 5105,
+  "mean": 1002.7977528089888,
+  "median": 614,
+  "distribution": {
+    "<=1024": 60,
+    "<=2048": 14,
+    "<=4096": 14,
+    ">4096": 1
+  },
+  "oversized_chunks": [
+    {
+      "chunk_id": "chunk_2faddde0732a46382896efb7b44d9c6a27826b5d34ba68398a48acb90b4384ab",
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "section": "fastapi.openapi.docs.get\\_swagger\\_ui\\_html",
+      "bytes": 5105,
+      "reason": "oversized_fence"
+    }
+  ],
+  "context_warnings": [
+    {
+      "chunk_id": "chunk_0caf6d4347b9361acc53b28c9062c86c617429a4d07dd4d12c16b5acd876368f",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "FastAPI",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_7d5e211164b5b7aad1c7f23731ab19ff76c2cded78c232722f2c6067d15df318",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Sponsors",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_bcd6139f98f7fc65d6e365b30ad5a59dc290144262596c3bc337517237445fb7",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Keystone Sponsor",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_f75884887e0b3ab1989e57ad26df099f53e07a3e3550808906ccf784e7cccabe",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Gold Sponsors",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_30bd9f8c83ada9788d28ccb962981b067015109c97cedb7a8e6fe2893e7c40c6",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Silver Sponsors",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_8b565ae8792329fccffbdb6750aa1f98ae9db121e162baaccf474ea8c2417155",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Opinions",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_9e232466ea461cc16afe3ecb21e3c8457ab30b4adc3f001bd4789d8f57a26312",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "FastAPI mini documentary",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_34de3c15bce1e1f8cf5efd4b7a3adb11991e271d8c8b428c5d6e1a2af147268d",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "**Typer**, the FastAPI of CLIs",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_e1204880dbfb2afef3d45da9032d86bdd3bde238bd16b4c638623792dda83d28",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Requirements",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_989bc54f8b762b1c7bc644516023a5f768fe75041971ed772d5485a50b7e503d",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Installation",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_2d9b979dbbed147afd0670ca29fae41f5f9c2b36b69c7df8b691cda3813edd0b",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Example",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_f51041a30a826736f6a0cd00810216ef6de8d131af85e5567a4704296e0f6ff3",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Create it",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_d136aa4d9498689868b763ad6fd39371f06acb50d84833a06be7a29e270e5223",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Run it",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_5d8a868d466ef53f7ec80f21408f2a346a0fbb501bf4349d4d7ff0609db0f4da",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Check it",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_6143198deac9c59bc92210b9d0d5c20809fe28fba2b31feed7691d2e25ab822d",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Interactive API docs",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_4aff582a9f484f7510b09fd847abd99a6df13e39d6bde7b3269ed3dc3a8356f7",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Alternative API docs",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_821f76e59a8d027ce4c9216b1a027b3de332a3ac900314dfdd655888a90d0ad5",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Example upgrade",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_c4399ee5d7b413cdbed6cc90c5c9b9582be84726fc0ad694b4d886df80fe3d65",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Interactive API docs upgrade",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_69c419639b9077829bd2d0ba0e1f33a28d009edd9c60e0db4288754fab231975",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Alternative API docs upgrade",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_aff3a8572d056b7af2c2b9c053ad76d1e1e7f869d2a2d8d3a9e20cdc3a45a774",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Recap",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_f47edddc039d5d39b3095f6f092b8b8ee1133aac70459f8b23622109fe397571",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Deploy your app (optional)",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_988f68e3357338ed7f350ebbe213aad910fa8f2564bdd839e4f5696cc25ea3ef",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "About FastAPI Cloud",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_58cceb87b075503c8e5a5c67efec94e8fc90ae81e1257511c7e3cbeb63008148",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Deploy to other cloud providers",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_a979d81617b7a8bb421e5bc6e040bf080ef36b4607f1ab6e0a492c3564d58773",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Performance",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_a4e001a2f588dfc87abdd6971bacde12dc88fd87d5b5f9c069e59239db910300",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Dependencies",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_6cfbd4cd5c900fa15c971164bcdc5a1c82219306db0afbf6916c4fce4a77da0a",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "`standard` Dependencies",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_77624ec8a3f5db5631551e42b1d6b8d57ad547b88a8c83867e10e2d3daedad42",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Without `standard` Dependencies",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_ae67a42876d06c924ac17eae85b59c12874d429c209d6ea12cc57b41b4ab4956",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Without `fastapi-cloud-cli`",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_d32fc7d306866bd5905e1a9c84adc18d475218e1074088ed9dbc84d379793126",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "Additional Optional Dependencies",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_4f7b26d5807b200f77c0d6ffbcb63a66a0ad400ceaf7ef5e922a161ea075a7d8",
+      "url": "https://fastapi.tiangolo.com/",
+      "section": "License",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_900ff38ca0d01eeabbb4f2518baef2e6fcfc8f06a2e68ee094491523462f4ee1",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "section": "Metadata for API",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_40801099c9c28cfbc111ad6647768e9ba3f750d09fdad20dfb9ccffd3bd82238",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "section": "License identifier",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_da35fad5448596a8884836841072020bf9723ba3668ec1602f10ff6ba946dd78",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "section": "Metadata for tags",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_4bc84c931cfbaed35c37c971667c03d73983bcae6277620012cb8cc248c5f51c",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "section": "Create metadata for tags",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_6b2ca14625738e9a6285c48a735ea30d619235aac99b9aba50f4815c6ec6c695",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "section": "Use your tags",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_8852223804c57678add7a3b56722fe0a333337214c2e04c5b1dd7e81040e307b",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "section": "Check the docs",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_137310c82efa5ba4775f0b5f0da46b32de7104eaba5a95771a70f070cd4f05f1",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "section": "Order of tags",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_32a13ef5809dad7fcf46fda22f224ff98752b555c4bb1446d3af8615e75eba87",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "section": "OpenAPI URL",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_59cbb668cd7d33a36cd3c3df8968fd7e97239a864449aedfeccdfadfc887d330",
+      "url": "https://fastapi.tiangolo.com/tutorial/metadata/",
+      "section": "Docs URLs",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_8d64f193439080d188ea566b9c32ef550bcae55d767ededf4abeddaab43e64e1",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Custom CDN for JavaScript and CSS",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_7b72526f6dad2586d46603dbdb47b99a313f3f0f532fcc793d3f5d34a10d3715",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Disable the automatic docs",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_5a272acf45822276a6c25e4ee8dd60ded4a0a6bb03025347dcd823c20c2b551a",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Include the custom docs",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_972db97aa1502acf030f2be9315cfc2c8693e629e860a4d2208d60bc5f728457",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Create a *path operation* to test it",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_944f1544ee859405785e98adbbde7ffda34dfe46bb411384c8604b2b9785932d",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Test it",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_c987d7ca76b6a6efad8ce0e68eb914ce26f4a7b6f1613907ec0fe51762797a27",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Self-hosting JavaScript and CSS for docs",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_889a5d0467c53d09f1c9606196f773990a10611944021b937565b422021212c5",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Project file structure",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_5a45a02229488dd454c3d37e5e0e44905976fce586cea88aeff6c2901129ea61",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Download the files",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_4fec9c34054aec21bb936ec68023b45aff375110bd93e5140751d20d0cf442ad",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Serve the static files",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_f5562b7386e8196a74085b262f7a9a84c7e8b563c0803d4c9440ef3ce6240347",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Test the static files",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_55e117281f62df3fc9647a3ace657ab909029459d53411c22858bfe195d97785",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Disable the automatic docs for static files",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_8d097863175e9a67772736f30d931ae06dc9c9e2dee665dbcfb23ac14100428a",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Include the custom docs for static files",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_f2fd9da8d1919bfdf0db6cbe06553f6dc140104ae04cd62cc1c5a59e62e44d6c",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Create a *path operation* to test static files",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_d6d9cd57943f2d62ac5ebb6432a852c32ba98806bc13833801f6e5aca3a52b93",
+      "url": "https://fastapi.tiangolo.com/how-to/custom-docs-ui-assets/",
+      "section": "Test Static Files UI",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_9b80edd3a39e4924ab08903a435d9b1713d036946f5f522203b820f89eb61c94",
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "section": "fastapi.openapi.docs.get\\_swagger\\_ui\\_html",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_2faddde0732a46382896efb7b44d9c6a27826b5d34ba68398a48acb90b4384ab",
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "section": "fastapi.openapi.docs.get\\_swagger\\_ui\\_html",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_4f6293e81a64cbd6d8a03e2c9a2e60ddd048471613233ee9649627c7724d7eba",
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "section": "fastapi.openapi.docs.get\\_redoc\\_html",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_ac4245bc7ce265322a31fce7d6ce3af82ad8073195c2c00eff82e93e9092ec74",
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "section": "fastapi.openapi.docs.get\\_redoc\\_html",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_2d92124e96c06b43f43e216e00f2ad38f631fdac71af1e8deef95d632cbf3d92",
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "section": "fastapi.openapi.docs.get\\_swagger\\_ui\\_oauth2\\_redirect\\_html",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_f280eaa62476a2b47ca9a78994c665dea853fee6ce4c03e2cff3af532e6a7374",
+      "url": "https://fastapi.tiangolo.com/reference/openapi/docs/",
+      "section": "fastapi.openapi.docs.swagger\\_ui\\_default\\_parameters `module-attribute`",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_f2522cbed691be1492720ff647eca1727b5fa2cdbd857325f617071c74dcc3ae",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "section": "Run the code",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_787f49bba8e76c70035fe7889e43838c6cfe3bf319dc7a9b745c3ed59c8f14fd",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "section": "Install FastAPI",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_4c82bd6312a5988f57c350ceb6028ba6ea81189fb67f30d9cc1a0e1e1e271d49",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "section": "AI Agent Skills",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_89b5c660fea07de660196facd7e6916863dcf2deeb3f14410da88f68d71ef81a",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "section": "Advanced User Guide",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_75d4a16b7240f430f498675d0a02d29cb60656fdc11c44b0c8faf28661fa4dff",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "In a hurry?",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_b0b220a2f2b543fec2da2e451838a39a74fb2c4fc6833a0317af30c0c114a928",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Technical Details",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_9f18a77a550580e086ef2f74bb1a071a1968a662dbce65a0fdc7b8479bfc753a",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Asynchronous Code",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_404ae7aa8a940d1674b2246e13452062d77dcbcc056d9967a061679e82cdcfe8",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Concurrency and Burgers",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_3a7822b1134d0b2a0794960a0575cbe1de0f4e45ac65a7ff4eb9d20453c711a7",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Concurrent Burgers",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_a1a5032ab6aa8aefba4ac17ecbf0c577c26d91b36fb622ffc78d55f6615dc7cd",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Parallel Burgers",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_af0fd3b356064651f1b92bdaac2f217849d1e22fbcc161c2ef43ef38cc613fe8",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Burger Conclusion",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_b3df107cda3cb4489f74165f215409cdc2374c8852b736caba78dc9b918adfb4",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Is concurrency better than parallelism?",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_7c20aa6a3f40d9262f18c4d61229a3bd01fe59a7a268042526b5ae56369dbd8a",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Concurrency + Parallelism: Web + Machine Learning",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_5a3bca3c65c0d40eda8e42779e98e1a408fc034a77764df6316b192e1cf71821",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "`async` and `await`",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_d2d3cdc5b89ac3487c2c81e3fe8aa1f367cc66314cef495a2f7e39d54e29fea2",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "More technical details",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_2492f7f337d7aaa726504d587763dd3d129835fd49346295e8560c66b275c494",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Write your own async code",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_35fe7e150c4a5de3cc286f78a0edc39354e75f9883ef5a4ca1544834cfeaf307",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Other forms of asynchronous code",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_1627e4b9ee6c541771d108b229fe41a18ee195656c4fb7f34b58a80cdd298085",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Coroutines",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_b509bec6ec7b3f3d1e3c089a1768b0a6ebf597a99ad5e7e4cf789761f028e53d",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Conclusion",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_ef394f0a63f54f257c66cd3a04923906944a560ba41a3b4ba48ea1f864362275",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Very Technical Details",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_e4d90411a764a64348a2fc69556270f05e04c31f57c114c2f1b6b5466a17806e",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Path operation functions",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_8d5c48a2700a6426b79dc34d7b231bc85b83f838d2553ed61f6d3a7eecb88383",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Dependencies",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_2316cd8366bc6467a7f0803eefed70309aee748894c6280078dcf1f3f0871f9c",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Sub-dependencies",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    },
+    {
+      "chunk_id": "chunk_9e48d4abdcb1cd027467e25121dbe4a2ab7954088d7d6857f2806ba0722cbb9f",
+      "url": "https://fastapi.tiangolo.com/async/",
+      "section": "Other utility functions",
+      "warnings": [
+        "cross_section_context_not_repeated"
+      ]
+    }
+  ],
+  "empty_chunks": 0,
+  "errors": []
+}
