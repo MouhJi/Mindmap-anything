@@ -82,8 +82,8 @@ def run(input_paths=None, output_root=None):
     write_jsonl(directory / 'outputs/errors.jsonl', errors)
 
     unavailable = {
-        'chunking': 'No section-aware chunker or tokenizer integration exists; SourceChunk is only an input schema.',
-        'extraction': 'StructuredExtractor requires an injected provider; no configured provider adapter exists. No requests made.',
+        'chunking': 'This baseline stops after cleaning. Run run_chunking.py for section chunks.',
+        'extraction': 'See the Gemini pilots in evaluation/real_world/README.md for live extraction.',
         'normalization': 'Blocked by unavailable real chunks and extraction results.',
         'deduplication': 'Blocked by unavailable real extraction results.',
         'quality_filtering': 'Blocked by unavailable real extraction results.',
@@ -158,7 +158,7 @@ def run(input_paths=None, output_root=None):
              '| Stage | Status / blocking reason |', '| --- | --- |',
              *[f'| {stage} | NOT EXECUTED: {reason} |' for stage, reason in unavailable.items()], '',
              '## Normalization, evidence, storage and expansion', '',
-             'No real extraction results exist. Canonical counts, accepted/rejected counts, alias samples, '
+             'This run stops before extraction. Canonical counts, edge decisions, alias samples, '
              'Neo4j idempotency and graph counts are unavailable. No five real expansion examples can be produced.', '',
              '## Performance', '', f'Cleaning including preservation verification: {cleaning_seconds:.6f} seconds.',
              f"Total runner time: {report['total_execution_seconds']:.6f} seconds.",
@@ -167,9 +167,9 @@ def run(input_paths=None, output_root=None):
              'No independent real-data ground truth exists; precision and recall cannot be calculated. '
              'Evidence pass rates must not be called extraction accuracy.', '',
              '## Next steps', '',
-             'Implement/configure the missing chunker and its token counting, and configure a real provider adapter '
-             'for StructuredExtractor. Then rerun extraction and the existing KnowledgePipeline without tuning '
-             'prompts, scores or thresholds. Configure Neo4j only when real canonical outputs are available. '
+             'Export section chunks and follow the Gemini pilots in the evaluation README. '
+             'Review extraction before ingestion with KnowledgePipeline. Configure Neo4j once '
+             'real canonical outputs are available. '
              'Expand the dataset to 20–30 official pages and independently label relevance before measuring precision.', '']
     (directory / 'reports/pipeline_report.md').write_text('\n'.join(lines), encoding='utf-8')
     # Verify every generated machine-readable artifact can be read back.

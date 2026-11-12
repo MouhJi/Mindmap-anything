@@ -1,0 +1,30 @@
+{
+  "datasets/chunks.jsonl": {
+    "status": "not_generated",
+    "reason": "No section-aware chunker or tokenizer integration exists; SourceChunk is only an input schema."
+  },
+  "outputs/extracted_entities.jsonl": {
+    "status": "not_generated",
+    "reason": "StructuredExtractor requires an injected provider; no configured provider adapter exists. No requests made."
+  },
+  "outputs/extracted_relationships.jsonl": {
+    "status": "not_generated",
+    "reason": "StructuredExtractor requires an injected provider; no configured provider adapter exists. No requests made."
+  },
+  "outputs/canonical_entities.jsonl": {
+    "status": "not_generated",
+    "reason": "Blocked by unavailable real chunks and extraction results."
+  },
+  "outputs/canonical_relationships.jsonl": {
+    "status": "not_generated",
+    "reason": "Blocked by unavailable real extraction results."
+  },
+  "outputs/rejected_relationships.jsonl": {
+    "status": "not_generated",
+    "reason": "Blocked by unavailable real extraction results."
+  },
+  "outputs/expansion_results.json": {
+    "status": "not_generated",
+    "reason": "No resulting real graph exists; zero real node expansions executed."
+  }
+}

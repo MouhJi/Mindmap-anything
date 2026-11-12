@@ -11,6 +11,7 @@ dependencies = [
     "aiofiles>=24.1.0",
     "beautifulsoup4>=4.12.0",
     "crawl4ai>=0.6.0",
+    "httpx>=0.28.1,<1",
     "markdownify>=0.13.0",
     "markdown-it-py>=3.0.0",
     "pydantic>=2.7.0",
@@ -22,13 +23,21 @@ docs-crawl = "crawler.cli:main"
 
 [project.optional-dependencies]
 test = ["pytest>=8.0.0"]
+graph = ["neo4j>=5.26,<7"]
+llm = ["google-genai>=1.56,<3"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
+[tool.setuptools]
+include-package-data = false
+
 [tool.setuptools.packages.find]
-include = ["crawler", "crawler.*"]
+include = ["crawler", "crawler.*", "knowledge", "knowledge.*"]
 namespaces = false
+
+[tool.setuptools.package-data]
+knowledge = ["migrations/*.cypher", "evaluation/*.json"]
 
 [tool.ruff]
 line-length = 100

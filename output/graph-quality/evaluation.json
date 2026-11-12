@@ -1,0 +1,340 @@
+{
+  "dataset": "Synthetic documentation-like, manually labeled regression set. Not a production accuracy benchmark.",
+  "sample_relationships": 17,
+  "canonical_entities": 12,
+  "canonical_relationships": 9,
+  "duplicate_entity_rate": 0.0,
+  "incorrect_entity_merges": 0,
+  "duplicate_relationship_rate": 0.0,
+  "raw_accepted_duplicate_relationship_rate": 0.18181818181818182,
+  "evidence_validation_pass_rate": 0.6470588235294118,
+  "accepted_relationship_precision": 1.0,
+  "expansion_precision_at_5": 1.0,
+  "label_agreement": 1.0,
+  "decisions": [
+    {
+      "id": "foundation",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "foundation-alias",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_inverse_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "foundation-repeat",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "validation",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "async",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "dependency-injection",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "openapi",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "http",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "incidental",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "heading",
+      "accepted": false,
+      "expected_accepted": false,
+      "reasons": [
+        "unknown_or_ambiguous_entity"
+      ]
+    },
+    {
+      "id": "unsupported",
+      "accepted": false,
+      "expected_accepted": false,
+      "reasons": [
+        "predicate_not_deterministically_supported"
+      ]
+    },
+    {
+      "id": "empty",
+      "accepted": false,
+      "expected_accepted": false,
+      "reasons": [
+        "empty_evidence"
+      ]
+    },
+    {
+      "id": "fabricated",
+      "accepted": false,
+      "expected_accepted": false,
+      "reasons": [
+        "evidence_not_in_chunk"
+      ]
+    },
+    {
+      "id": "negated",
+      "accepted": false,
+      "expected_accepted": false,
+      "reasons": [
+        "negated_or_contradictory_evidence"
+      ]
+    },
+    {
+      "id": "react-distinct",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "python-distinct",
+      "accepted": true,
+      "expected_accepted": true,
+      "reasons": [
+        "explicit_directed_predicate",
+        "trusted"
+      ]
+    },
+    {
+      "id": "missing-chunk",
+      "accepted": false,
+      "expected_accepted": false,
+      "reasons": [
+        "missing_chunk"
+      ]
+    }
+  ],
+  "unfiltered_neighbors": [
+    "Async/Await",
+    "Dependency Injection",
+    "HTTP",
+    "OpenAPI",
+    "Pydantic",
+    "Starlette",
+    "Uvicorn"
+  ],
+  "intelligent_top_5": [
+    "Starlette",
+    "Async/Await",
+    "HTTP",
+    "OpenAPI",
+    "Pydantic"
+  ],
+  "example_expansion_response": {
+    "center_node": {
+      "id": "ent_4a3e36113558c48e802c537529bb7ccc859b74283906f2a0940111897522409f",
+      "label": "FastAPI",
+      "type": "Framework"
+    },
+    "nodes": [
+      {
+        "id": "ent_ec544c6690b56f09428ae9713343f9a28e3d424dd0aaf52ee264e1d2f3daf074",
+        "label": "Starlette",
+        "type": "Framework"
+      },
+      {
+        "id": "ent_c0e63b455c4e1e55a6bfa0a9f7bc9490605cbf7d2ed33766316801b843281dcb",
+        "label": "Async/Await",
+        "type": "Concept"
+      },
+      {
+        "id": "ent_479cffdf8ba6fd2c478ac0bcf9a69bd08381792dbb1ce8c89f6c16a893121d8e",
+        "label": "HTTP",
+        "type": "Protocol"
+      },
+      {
+        "id": "ent_778bfa6a6e1248e119d17f50cd1fc93a5db5c65a2a97c3422109d10fd728ad38",
+        "label": "OpenAPI",
+        "type": "Format"
+      },
+      {
+        "id": "ent_6894abcc7c5a8d245c3556885d232285dc904068a10ce0acdcb2c50b7f907d2f",
+        "label": "Pydantic",
+        "type": "Library"
+      }
+    ],
+    "edges": [
+      {
+        "id": "rel_ae6820330b4f96db819847c634cd038cfa59794ae741fe035d31e1b900eb7e02",
+        "source": "ent_4a3e36113558c48e802c537529bb7ccc859b74283906f2a0940111897522409f",
+        "target": "ent_ec544c6690b56f09428ae9713343f9a28e3d424dd0aaf52ee264e1d2f3daf074",
+        "relation_type": "BASED_ON",
+        "importance": 0.95,
+        "confidence": 0.9,
+        "evidence_count": 3,
+        "ranking_score": 0.9299999999999999
+      },
+      {
+        "id": "rel_531e6c9cb13a7a6e35546dd1b0af7dda236d22762dfb2aae65d72353367deedb",
+        "source": "ent_4a3e36113558c48e802c537529bb7ccc859b74283906f2a0940111897522409f",
+        "target": "ent_c0e63b455c4e1e55a6bfa0a9f7bc9490605cbf7d2ed33766316801b843281dcb",
+        "relation_type": "SUPPORTS",
+        "importance": 0.9,
+        "confidence": 0.9,
+        "evidence_count": 1,
+        "ranking_score": 0.9000000000000001
+      },
+      {
+        "id": "rel_92e9ba32053078e8e7faea6afd934b0849abdcbd830e99c547e3caebe5962613",
+        "source": "ent_4a3e36113558c48e802c537529bb7ccc859b74283906f2a0940111897522409f",
+        "target": "ent_479cffdf8ba6fd2c478ac0bcf9a69bd08381792dbb1ce8c89f6c16a893121d8e",
+        "relation_type": "SUPPORTS",
+        "importance": 0.9,
+        "confidence": 0.9,
+        "evidence_count": 1,
+        "ranking_score": 0.9000000000000001
+      },
+      {
+        "id": "rel_fffdc930f0af3a1e00cbd4e64375e1b82583e09ec119b17a3d92cb8f070ed5ee",
+        "source": "ent_4a3e36113558c48e802c537529bb7ccc859b74283906f2a0940111897522409f",
+        "target": "ent_778bfa6a6e1248e119d17f50cd1fc93a5db5c65a2a97c3422109d10fd728ad38",
+        "relation_type": "IMPLEMENTS",
+        "importance": 0.9,
+        "confidence": 0.9,
+        "evidence_count": 1,
+        "ranking_score": 0.9000000000000001
+      },
+      {
+        "id": "rel_01a48626bb4e0f1a13838c47f6a2f567245ccfcbfecd50884366b9e5025eadb1",
+        "source": "ent_4a3e36113558c48e802c537529bb7ccc859b74283906f2a0940111897522409f",
+        "target": "ent_6894abcc7c5a8d245c3556885d232285dc904068a10ce0acdcb2c50b7f907d2f",
+        "relation_type": "USES",
+        "importance": 0.85,
+        "confidence": 0.9,
+        "evidence_count": 1,
+        "ranking_score": 0.8700000000000001
+      }
+    ],
+    "pagination": {
+      "returned": 5,
+      "has_more": true,
+      "next_cursor": "eyJxdWVyeSI6InF1ZXJ5XzE0ZTA5Yjk2MTdiOGY1MmQyYmZjNDRlZmUxYmYyN2JlZGU2YWYxNWEzMDE0OGI2MWQwYTlmNzlmMGZlZjYzMmMiLCJyZXZpc2lvbiI6MTcsInNjb3JlIjowLjg3MDAwMDAwMDAwMDAwMDEsImlkIjoicmVsXzAxYTQ4NjI2YmI0ZTBmMWExMzgzOGM0N2Y2YTJmNTY3MjQ1Y2NmY2JmZWNkNTA4ODQzNjZiOWU1MDI1ZWFkYjEifQ=="
+    }
+  },
+  "example_evidence_response": {
+    "relationship": {
+      "project_id": "evaluation",
+      "relationship_id": "rel_ae6820330b4f96db819847c634cd038cfa59794ae741fe035d31e1b900eb7e02",
+      "source_id": "ent_4a3e36113558c48e802c537529bb7ccc859b74283906f2a0940111897522409f",
+      "target_id": "ent_ec544c6690b56f09428ae9713343f9a28e3d424dd0aaf52ee264e1d2f3daf074",
+      "relation_type": "BASED_ON",
+      "importance": 0.95,
+      "confidence": 0.9,
+      "evidence_count": 3,
+      "verified": true
+    },
+    "source_node": {
+      "id": "ent_4a3e36113558c48e802c537529bb7ccc859b74283906f2a0940111897522409f",
+      "label": "FastAPI",
+      "type": "Framework"
+    },
+    "target_node": {
+      "id": "ent_ec544c6690b56f09428ae9713343f9a28e3d424dd0aaf52ee264e1d2f3daf074",
+      "label": "Starlette",
+      "type": "Framework"
+    },
+    "evidence": [
+      {
+        "evidence_id": "ev_9dbf96c222af7158068307f5903548d8c170fb59b1a7e9611266183358931397",
+        "project_id": "evaluation",
+        "relationship_id": "rel_ae6820330b4f96db819847c634cd038cfa59794ae741fe035d31e1b900eb7e02",
+        "chunk_id": "foundation",
+        "document_id": "synthetic-doc",
+        "url": "https://docs.example/synthetic",
+        "text": "FastAPI is based on Starlette.",
+        "content_hash": "chunk_32aa1397dddc4841b47613eb6a7cfa46b85f83a05ba5a7cad121b149e0b5cdf3",
+        "importance": 0.95,
+        "confidence": 0.9,
+        "policy_version": "deterministic-v1"
+      },
+      {
+        "evidence_id": "ev_c0abf2ee5087672f487f6c4878eed9ee328eafb86691f212d0a5d36855d55074",
+        "project_id": "evaluation",
+        "relationship_id": "rel_ae6820330b4f96db819847c634cd038cfa59794ae741fe035d31e1b900eb7e02",
+        "chunk_id": "foundation-repeat",
+        "document_id": "synthetic-doc",
+        "url": "https://docs.example/synthetic",
+        "text": "FastAPI Framework builds upon Starlette.",
+        "content_hash": "chunk_70fd3f070ed24a9a6c86525ea22ffb90a1e4d3261e8fb2470e48c696d3127801",
+        "importance": 0.95,
+        "confidence": 0.9,
+        "policy_version": "deterministic-v1"
+      },
+      {
+        "evidence_id": "ev_ed858b33a342fc5c83c232a02eae38647ec303cb33b5e8210ef464b9527878c8",
+        "project_id": "evaluation",
+        "relationship_id": "rel_ae6820330b4f96db819847c634cd038cfa59794ae741fe035d31e1b900eb7e02",
+        "chunk_id": "foundation-alias",
+        "document_id": "synthetic-doc",
+        "url": "https://docs.example/synthetic",
+        "text": "Starlette is the foundation of Fast API.",
+        "content_hash": "chunk_7877423598f8c1b869f17fbca018b86164409988c8253d4ec7b27b29f0dec82b",
+        "importance": 0.95,
+        "confidence": 0.9,
+        "policy_version": "deterministic-v1"
+      }
+    ],
+    "pagination": {
+      "returned": 3,
+      "has_more": false,
+      "next_cursor": null
+    }
+  },
+  "limitations": "Small synthetic regression sample; needs independently labeled real documentation and recall evaluation."
+}

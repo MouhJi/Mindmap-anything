@@ -6,5 +6,8 @@ markdown-it-py>=3.0.0
 pydantic>=2.7.0
 trafilatura>=1.9.0
 
+[graph]
+neo4j<7,>=5.26
+
 [test]
 pytest>=8.0.0

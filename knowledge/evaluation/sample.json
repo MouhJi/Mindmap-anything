@@ -1,0 +1,46 @@
+{
+  "description": "Synthetic documentation-like, manually labeled regression set. Not a production accuracy benchmark.",
+  "entities": [
+    {"name": "FastAPI", "type": "Framework", "aliases": ["Fast API", "FastAPI Framework"]},
+    {"name": "fastapi", "type": "Framework"},
+    {"name": "Fast API", "type": "Framework"},
+    {"name": "FastAPI Framework", "type": "Framework"},
+    {"name": "Starlette", "type": "Framework"},
+    {"name": "Pydantic", "type": "Library"},
+    {"name": "Async/Await", "type": "Concept"},
+    {"name": "Dependency Injection", "type": "Concept"},
+    {"name": "OpenAPI", "type": "Format"},
+    {"name": "HTTP", "type": "Protocol"},
+    {"name": "Uvicorn", "type": "Tool"},
+    {"name": "Introduction", "type": "Concept"},
+    {"name": "React", "type": "Framework"},
+    {"name": "React Native", "type": "Framework"},
+    {"name": "Python", "type": "Language"},
+    {"name": "Python asyncio", "type": "Library"}
+  ],
+  "canonical_groups": [
+    ["FastAPI", "fastapi", "Fast API", "FastAPI Framework"],
+    ["Starlette"], ["Pydantic"], ["Async/Await"], ["Dependency Injection"],
+    ["OpenAPI"], ["HTTP"], ["Uvicorn"], ["React"], ["React Native"], ["Python"], ["Python asyncio"]
+  ],
+  "center": "FastAPI",
+  "records": [
+    {"id":"foundation", "text":"FastAPI is based on Starlette.", "source":"FastAPI", "target":"Starlette", "relation_type":"BASED_ON", "expected_accepted":true, "useful":true},
+    {"id":"foundation-alias", "text":"Starlette is the foundation of Fast API.", "source":"Fast API", "target":"Starlette", "relation_type":"BASED_ON", "expected_accepted":true, "useful":true},
+    {"id":"foundation-repeat", "text":"FastAPI Framework builds upon Starlette.", "source":"FastAPI Framework", "target":"Starlette", "relation_type":"BASED_ON", "expected_accepted":true, "useful":true},
+    {"id":"validation", "text":"FastAPI uses Pydantic.", "source":"FastAPI", "target":"Pydantic", "relation_type":"USES", "expected_accepted":true, "useful":true},
+    {"id":"async", "text":"FastAPI supports Async/Await.", "source":"FastAPI", "target":"Async/Await", "relation_type":"SUPPORTS", "expected_accepted":true, "useful":true},
+    {"id":"dependency-injection", "text":"FastAPI provides Dependency Injection.", "source":"FastAPI", "target":"Dependency Injection", "relation_type":"PROVIDES", "expected_accepted":true, "useful":true},
+    {"id":"openapi", "text":"FastAPI implements OpenAPI.", "source":"FastAPI", "target":"OpenAPI", "relation_type":"IMPLEMENTS", "expected_accepted":true, "useful":true},
+    {"id":"http", "text":"FastAPI supports HTTP.", "source":"FastAPI", "target":"HTTP", "relation_type":"SUPPORTS", "expected_accepted":true, "useful":true},
+    {"id":"incidental", "text":"FastAPI mentions Uvicorn in an example.", "source":"FastAPI", "target":"Uvicorn", "relation_type":"MENTIONS", "expected_accepted":true, "useful":false},
+    {"id":"heading", "text":"FastAPI mentions Introduction.", "source":"FastAPI", "target":"Introduction", "relation_type":"MENTIONS", "expected_accepted":false, "useful":false},
+    {"id":"unsupported", "text":"FastAPI and React are discussed on this page.", "source":"FastAPI", "target":"React", "relation_type":"USES", "expected_accepted":false, "useful":false},
+    {"id":"empty", "text":"FastAPI uses React.", "evidence":"", "source":"FastAPI", "target":"React", "relation_type":"USES", "expected_accepted":false, "useful":false},
+    {"id":"fabricated", "text":"FastAPI and React are discussed here.", "evidence":"FastAPI uses React.", "source":"FastAPI", "target":"React", "relation_type":"USES", "expected_accepted":false, "useful":false},
+    {"id":"negated", "text":"FastAPI does not use React.", "source":"FastAPI", "target":"React", "relation_type":"USES", "expected_accepted":false, "useful":false},
+    {"id":"react-distinct", "text":"React Native uses React.", "source":"React Native", "target":"React", "relation_type":"USES", "expected_accepted":true, "useful":true},
+    {"id":"python-distinct", "text":"Python asyncio extends Python.", "source":"Python asyncio", "target":"Python", "relation_type":"EXTENDS", "expected_accepted":true, "useful":true},
+    {"id":"missing-chunk", "text":"FastAPI uses Pydantic.", "referenced_chunk":"does-not-exist", "source":"FastAPI", "target":"Pydantic", "relation_type":"USES", "expected_accepted":false, "useful":false}
+  ]
+}
